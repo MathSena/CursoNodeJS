@@ -65,7 +65,7 @@ function buildAccount() {
           chalk.bgRed.black('Essa conta já existe, defina um novo nome')
         )
         buildAccount()
-        return
+        //return
       }
 
       fs.writeFileSync(
