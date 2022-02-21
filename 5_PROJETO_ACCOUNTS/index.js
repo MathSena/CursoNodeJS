@@ -28,6 +28,15 @@ function operation() {
 
       if (action === 'Criar conta') {
         createAccount()
+      } else if (action === 'Consultar Saldo') {
+        //createAccount()
+      } else if (action === 'Depositar') {
+        //createAccount()
+      } else if (action === 'Sacar') {
+        //createAccount()
+      } else if (action === 'Sair') {
+        console.log(chalk.bgBlue.black('Obrigado por utilizar nossos serviços'))
+        process.exit()
       }
 
       console.log(action)
